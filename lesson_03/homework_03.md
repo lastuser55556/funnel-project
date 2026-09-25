@@ -107,3 +107,11 @@
 | Что сделано самостоятельно |  |
 | Что спрошено у модели |  |
 | Что после этого изменено |  |
+
+---
+
+## Выполненная работа
+
+Репозиторий сайта: https://github.com/lastuser55556/ga4-analytics-lab . Публичный адрес: https://lastuser55556.github.io/ga4-analytics-lab/ . Публикация GitHub Pages имеет статус READY. Google Tag с Measurement ID `G-9JL87QHMHH` установлен по одному разу в `index.html`, `about.html` и `contacts.html`.
+
+В Realtime проверены `page_view`, `first_visit`, `session_start` и `scroll`. Для проверки источника использована ссылка `https://lastuser55556.github.io/ga4-analytics-lab/?utm_source=telegram&utm_medium=social&utm_campaign=ga4_lab`; в GA4 отправляется событие `utm_visit` с теми же параметрами. На момент проверки Realtime показывал 2 активных пользователя и 3 просмотра главной страницы.
