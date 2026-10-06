@@ -25,12 +25,11 @@ Google Tag с указанным Measurement ID присутствует в ис
 
 ## 2. Тег установлен
 
-Проверка «На вашем сайте обнаружен тег Google» не выполнена: она требует личного входа в GA4.
+Tag Assistant обнаружил Google Tag с Measurement ID `G-9JL87QHMHH` на странице Home.
 
-Требуемые доказательства:
+![Tag Assistant: найден Google Tag](screens/01-tag-detected.png)
 
-- `screens/01-tag-detected.png` — результат проверки тега.
-- `screens/02-tag-in-code.png` — исходный код страницы с `G-9JL87QHMHH`.
+Остаётся добавить кадр исходного кода: `screens/02-tag-in-code.png`.
 
 ## 3. События в аналитике
 
