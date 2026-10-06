@@ -31,7 +31,9 @@
 | `read_30s` | Пребывание на странице 30 секунд | Оставить вкладку активной на 30 секунд |
 | `form_error` | Ошибку обязательного поля формы | Отправить форму с незаполненным обязательным полем |
 
-Код `js/metrics.js` и его подключение в трёх HTML-страницах проверены в репозитории сайта. Требуемый скриншот: `screens/01-code.png`.
+Код `js/metrics.js` и его подключение в трёх HTML-страницах проверены в репозитории сайта.
+
+![Код метрик и подключение файла](screens/01-code.png)
 
 Проверка обязательного поля формы в браузере:
 
@@ -42,27 +44,33 @@
 Ссылка для проверки:
 
 ```text
-https://lastuser55556.github.io/ga4-analytics-lab/?utm_source=telegram&utm_medium=social&utm_campaign=ga4_lab
+https://lastuser55556.github.io/ga4-analytics-lab/?utm_source=teacher&utm_medium=homework&utm_campaign=ga4_lab
 ```
 
 | Параметр | Значение в ссылке |
 |---|---|
-| `utm_source` | `telegram` |
-| `utm_medium` | `social` |
+| `utm_source` | `teacher` |
+| `utm_medium` | `homework` |
 | `utm_campaign` | `ga4_lab` |
 | `landing_page` | `/` |
 
-Значения в GA4 нужно подтвердить на личном экране DebugView. Файл: `screens/03-utm-params.png`.
+Значения подтверждены в DebugView.
+
+![Параметры события utm_visit](screens/03-utm-params.png)
 
 ## 4. Проверка в GA4
 
-Поступление событий в DebugView, Realtime и отчёты нельзя честно подтвердить без входа в личный ресурс GA4. Нужны следующие файлы:
+Поступление событий подтверждено в DebugView и Realtime:
 
 | Файл | Что должно быть видно |
 |---|---|
 | `screens/02-debugview.png` | Лента DebugView с новыми событиями |
 | `screens/03-utm-params.png` | Раскрытый `utm_visit` и его параметры |
 | `screens/04-realtime.png` | Событие в Realtime или в отчёте по событиям |
+
+![События в DebugView](screens/02-debugview.png)
+
+![События в Realtime](screens/04-realtime.png)
 
 ## 5. Что показывают метрики
 
@@ -75,10 +83,3 @@ https://lastuser55556.github.io/ga4-analytics-lab/?utm_source=telegram&utm_mediu
 | Что сделано самостоятельно | Проверены файл метрик и его подключение в исходном коде сайта. |
 | Что спрошено у модели | Помощь в оформлении отчёта. |
 | Что после этого изменено | Неподтверждённые результаты DebugView и Realtime не заявлены как выполненные. |
-
-## Требуются личные доказательства
-
-1. Открыть `js/metrics.js` и строку подключения в HTML; сохранить `screens/01-code.png`.
-2. Включить отладку GA4, вызвать все четыре события и сохранить ленту в `screens/02-debugview.png`.
-3. Открыть сайт по UTM-ссылке выше, раскрыть `utm_visit` и сохранить `screens/03-utm-params.png`.
-4. Открыть Realtime сразу после действия или отчёт по событиям на следующий день и сохранить `screens/04-realtime.png`.

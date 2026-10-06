@@ -146,7 +146,7 @@
 
 ## 2. Google Analytics 4
 
-Сайт уже содержит Google Tag с Measurement ID `G-9JL87QHMHH`; публичный адрес — https://lastuser55556.github.io/ga4-analytics-lab/. Пять обязательных снимков настройки всё равно требуют личного входа в GA4.
+Сайт содержит Google Tag с Measurement ID `G-9JL87QHMHH`; публичный адрес — https://lastuser55556.github.io/ga4-analytics-lab/. Настройки аккаунта, ресурса и веб-потока подтверждены скриншотами.
 
 | Что требуется | Файл для доказательства |
 |---|---|
@@ -155,6 +155,16 @@
 | Выбрать бизнес-цели | `screens/03-business-goals.png` |
 | Создать Web Data Stream и проверить Enhanced Measurement | `screens/04-web-stream.png` |
 | Открыть Web stream details с Measurement ID | `screens/05-measurement-id.png` |
+
+![Сведения об аккаунте](screens/01-analytics-account.png)
+
+![Часовой пояс и валюта ресурса](screens/02-property.png)
+
+![Бизнес-цели](screens/03-business-goals.png)
+
+![Веб-поток сайта](screens/04-web-stream.png)
+
+![Measurement ID веб-потока](screens/05-measurement-id.png)
 
 ## Использование ИИ
 

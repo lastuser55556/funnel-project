@@ -21,7 +21,7 @@
 | Measurement ID | `G-9JL87QHMHH` |
 | Страницы с тегом | `index.html`, `about.html`, `contacts.html` |
 
-Google Tag с указанным Measurement ID присутствует в исходном коде трёх страниц. Контактная форма отправляет данные и UTM-метки в Google Apps Script для записи в учебную Google Таблицу. Фактическое поступление событий в личный ресурс GA4 требует проверки в браузере.
+Google Tag с указанным Measurement ID присутствует в исходном коде трёх страниц. Контактная форма отправляет данные и UTM-метки в Google Apps Script для записи в учебную Google Таблицу. Поступление событий подтверждено в GA4.
 
 ## 2. Тег установлен
 
@@ -29,7 +29,9 @@ Tag Assistant обнаружил Google Tag с Measurement ID `G-9JL87QHMHH` н�
 
 ![Tag Assistant: найден Google Tag](screens/01-tag-detected.png)
 
-Остаётся добавить кадр исходного кода: `screens/02-tag-in-code.png`.
+Исходный код страницы с Google Tag:
+
+![Google Tag в исходном коде](screens/02-tag-in-code.png)
 
 ## 3. События в аналитике
 
@@ -42,14 +44,18 @@ Tag Assistant обнаружил Google Tag с Measurement ID `G-9JL87QHMHH` н�
 Для проверки используется ссылка:
 
 ```text
-https://lastuser55556.github.io/ga4-analytics-lab/?utm_source=telegram&utm_medium=social&utm_campaign=ga4_lab
+https://lastuser55556.github.io/ga4-analytics-lab/?utm_source=teacher&utm_medium=homework&utm_campaign=ga4_lab
 ```
 
-В отчёте GA4 нужно подтвердить источник `telegram` и приложить `screens/04-source.png`. Данные по источнику могут появиться после обработки.
+В DebugView зафиксировано событие `utm_visit` с источником `teacher`.
+
+![Источник teacher в событии utm_visit](screens/04-source.png)
 
 ## 5. Страница «Отчёты»
 
-Требуется открыть «Отчёты» в личном GA4 и зафиксировать пользователей, сеансы, события и период. Файл: `screens/05-reports.png`.
+В отчётах GA4 отображаются пользователи, события и график за выбранный период.
+
+![Отчёт GA4](screens/05-reports.png)
 
 ## 6. Использование ИИ
 
@@ -58,11 +64,3 @@ https://lastuser55556.github.io/ga4-analytics-lab/?utm_source=telegram&utm_mediu
 | Что сделано самостоятельно | Проверены публичный сайт, репозиторий и наличие тега в коде. |
 | Что спрошено у модели | Помощь в оформлении бланка. |
 | Что после этого изменено | Неподтверждённые показатели Realtime и отчётов не указаны. |
-
-## Требуются личные доказательства
-
-1. В GA4 открыть инструкцию тега для сайта и сохранить кадр `screens/01-tag-detected.png`.
-2. Открыть исходный код любой страницы с тегом и сохранить `screens/02-tag-in-code.png`.
-3. Открыть публичный сайт, затем в GA4 перейти в **Realtime** и сохранить `screens/03-realtime.png`.
-4. Открыть сайт по UTM-ссылке выше; после обработки показать источник в GA4 и сохранить `screens/04-source.png`.
-5. В разделе **Отчёты** сохранить статистику за выбранный период в `screens/05-reports.png`.
