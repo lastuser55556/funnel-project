@@ -20,6 +20,7 @@
 | Репозиторий сайта | https://github.com/lastuser55556/ga4-analytics-lab |
 | Файл с метриками | `js/metrics.js` |
 | Подключение | После `js/script.js` на `index.html`, `about.html` и `contacts.html` |
+| Заявки | Контактная форма отправляет данные и UTM-метки в Google Apps Script для учебной Google Таблицы |
 
 ## 2. Добавленные метрики
 
