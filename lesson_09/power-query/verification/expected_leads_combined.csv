@@ -1,0 +1,15 @@
+Source.Name,request_id,created_at,name,direction,utm_source,utm_medium,utm_campaign,status,source_name,channel_group,status_order,is_final
+leads_2026-09-23.csv,REQ-101,2026-09-23 10:15:00,Иван,backend,telegram,social,september,new,Telegram,social,1,false
+leads_2026-09-23.csv,REQ-102,2026-09-23 10:42:00,Анна,data,vk,social,september,new,VK,social,1,false
+leads_2026-09-23.csv,REQ-103,2026-09-23 11:03:00,Мария,frontend,direct,none,not_set,done,Direct,direct,3,true
+leads_2026-09-24.csv,REQ-104,2026-09-24 09:12:00,Олег,backend,telegram,social,september,new,Telegram,social,1,false
+leads_2026-09-24.csv,REQ-105,2026-09-24 10:31:00,Ирина,data,email,email,autumn_mail,in_progress,Email,email,2,false
+leads_2026-09-24.csv,REQ-106,2026-09-24 13:25:00,Петр,frontend,vk,social,september,rejected,VK,social,4,true
+leads_2026-09-25.csv,REQ-107,2026-09-25 09:00:00,Алексей,backend,telegram,social,september,new,Telegram,social,1,false
+leads_2026-09-25.csv,REQ-108,2026-09-25 11:20:00,Елена,data,tiktok,social,september,new,TikTok,social,1,false
+leads_2026-09-25.csv,REQ-109,2026-09-25 15:10:00,Роман,frontend,direct,none,not_set,done,Direct,direct,3,true
+leads_2026-09-26.csv,REQ-110,2026-09-26 09:10:00,Дарья,data,email,email,autumn_mail,new,Email,email,1,false
+leads_2026-09-26.csv,REQ-111,2026-09-26 11:00:00,Сергей,backend,telegram,social,september,in_progress,Telegram,social,2,false
+leads_2026-09-26.csv,REQ-112,2026-09-26 14:20:00,Нина,frontend,direct,none,not_set,done,Direct,direct,3,true
+leads_2026-09-27.csv,REQ-120,2026-09-27 10:30:00,Вера,data,email,email,autumn_mail,in_progress,Email,email,2,false
+leads_2026-09-28.csv,REQ-121,2026-09-28 11:15:00,Лев,backend,youtube,video,autumn_video,new,,,1,false
